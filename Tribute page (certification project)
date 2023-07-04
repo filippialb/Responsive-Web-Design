@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<main id="main">
+  <head>
+    <meta charset="UTF-8">
+    <title id="title">Tribute Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+ <div id="img-div">
+
+<h1 class="center">Tribute page</h1>
+<h2 class="center">The man who saved a nation</h2>
+
+<figure>
+<img id="image" class="image" src="https://live.staticflickr.com/3906/33034055622_21f1c80be8_z.jpg" alt="Professor Olavo standing on a fence in Richmond, Virginia, where he lived with his family"/>
+
+<figcaption id="img-caption" class="center">Prof. Olavo in Richmond, Virginia - USA, where he lived</figcaption>
+</figure>
+
+</div>
+
+<section id="tribute-info">
+
+<h3  class="center">Here is a time line of Prof. Olavo's life</h3>
+
+<ul>
+<li>first- First paragraph</li>
+<li>second- second paragraph</li>
+<li>third- third paragraph</li>
+</ul>
+
+</section>
+
+<footer class="center">
+  <p>If you have time, you should read more about this incredible human being on his <a href="https://olavodecarvalho.org" target="_blank" id="tribute-link"/>Wikipedia page</a>
+  </p>
+</main>
+</footer>
+
+</body>
+</html> 
+
+/*------------*/
+a:link, a:visited {
+  color: (internal value);
+  text-decoration: underline;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active {
+  color: (internal value);
+}
+
+.image{
+  max-width:100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center{
+  text-align: center;
+}
