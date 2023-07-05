@@ -43,6 +43,9 @@
 </html> 
 
 /*------------*/
+
+
+
 a:link, a:visited {
   color: (internal value);
   text-decoration: underline;
@@ -64,3 +67,22 @@ a:link:active, a:visited:active {
 .center{
   text-align: center;
 }
+
+h3{
+
+  border-bottom: 4px double rgb(150,150,150);
+  max-width: 500px;
+  min-width: 300px;
+  text-align: center;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.paragraph{
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
